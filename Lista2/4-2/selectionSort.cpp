@@ -1,12 +1,16 @@
-#include "exec_4_1.hpp"
+#include "exec_4_2.hpp"
 
-void bubble(vector<int> &v){
+void selectionSort(vector<int> &v){
     for (int i = 0; i < v.size(); i++){
-        for (int j = i + 1; j < v.size(); j++){
-            if (v[i] > v[j]){
-                swap(v[i], v[j]);
+        int index = i;
+
+        for (int j = index; j < v.size(); j++){
+            if (v[j] < v[index]){
+                index = j;
             }
         }
+
+        swap(v[i], v[index]);
     }
 }
 

@@ -2,5 +2,5 @@
 
 using namespace std;
 
-void bubble(vector<int> &v);
+void selectionSort(vector<int> &v);
 void printVector(string text, vector<int> v);
