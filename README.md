@@ -9,6 +9,7 @@ Os códigos estão separados com suas respectivas listas.
 Cada uma da listas possui um conjunto de pastas com as questões internas e os códigos estão separados dentro.
 
 ### Linux
+Neste repositório executar o comando no **terminal**:
 ```
 $ make exec_<questao>_<sub-questão>
 ```
