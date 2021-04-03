@@ -13,6 +13,15 @@ exec_4_4:
 exec_4_5:
 	g++ Lista2/4-5/*.cpp -O2 && ./a.out < Lista2/4-5/in
 
+exec_4_6:
+	g++ Lista2/4-6/*.cpp -O2 && ./a.out < Lista2/4-6/in
+
+exec_4_7:
+	g++ Lista2/4-7/*.cpp -O2 && ./a.out < Lista2/4-7/in
+
+exec_4_8:
+	g++ Lista2/4-8/*.cpp -O2 && ./a.out < Lista2/4-8/in
+
 exec_4_9:
 	g++ Lista2/4-9/*.cpp -O2 && ./a.out < Lista2/4-9/in
 
