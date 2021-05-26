@@ -20,12 +20,38 @@ Dentro de cada uma das pastas possui:
 ### Linux
 Neste repositório executar o comando no **terminal**:
 ```
-$ make exec_<questao>_<sub-questão>
+$ make List=<List> Question=<question>
 ```
-- questao:
-    - 4
-- sub-questão:
-    - 1 até 10
+- List:
+    - BasicAlgorithm
+        - Question:
+            - SumExp
+    - BruteForce
+        - Question:
+            - BreadthFirstSearch
+            - BruteForceClosestPair
+            - BruteForceStringMatch
+            - BubbleSort
+            - ConvexHull
+            - DepthFirstSearch
+            - KnapsackProblem
+            - SequencialSearch2
+            - TSP
+    - DecreaseConquer
+        - Question:
+            - BinarySearch
+            - BinarySearchTree
+            - FakeCoin
+            - InsertionSort
+            - JohnsonTrotter
+            - LexicographicPermute
+    - DivideConquer
+        - Question:
+            - BiggerSmallerValue
+            - BiggerValue
+            - BinaryTree
+            - MergeSort
+            - QuickSort
 ### Windows
 - Não sei, use Linux
 
